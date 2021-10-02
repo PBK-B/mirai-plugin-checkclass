@@ -1,0 +1,10 @@
+{
+	"id": "bin.checkclass",
+	"name": "网课搜题插件",
+	"version": 1.1,
+	"author": "Bin",
+	"website": "https://github.com/PBK-B",
+	"config": {
+		"test_val_001": "test"
+	}
+}
