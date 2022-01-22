@@ -3,6 +3,7 @@
 
 ### 编译
 ```
+$ sudo chmod +x ./build.sh
 $ bash build.sh ./
 ```
 
@@ -10,6 +11,7 @@ $ bash build.sh ./
 ```
 .
 ├── README.md
+├── build             插件包编译输出目录
 ├── build.sh          构建脚本
 ├── go.mod
 ├── go.sum
