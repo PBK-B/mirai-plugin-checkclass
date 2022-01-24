@@ -31,6 +31,10 @@ echo -e "开始构建插件包！🦕 "
 
 # 编译插件代码
 go build -o="$cachePath/build.so" -buildmode=plugin $codePath
+if ! [ $? -eq 0 ]; then
+    echo -e "\033[31m插件编译失败，请修复错误后重试\033[0m" && exit 1
+fi
+
 echo -e "插件编译成功，正在打包…"
 
 # 压缩插件包文件
